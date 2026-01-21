@@ -1,0 +1,239 @@
+/* general */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #404bbf;
+}
+
+button {
+  cursor: pointer;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 120px 0;
+}
+
+.section-centered {
+  gap: 72px;
+  text-align: center;
+}
+
+/* card-set */
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+  list-style: none;
+}
+
+.card {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.card-content {
+  padding: 32px 16px;
+}
+
+.card-content .title-three {
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  margin: 0;
+}
+
+.card-content-no-spacing {
+  padding: 0;
+}
+
+/* header */
+header {
+  border: 1px solid #e7e9fc;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+}
+
+.header-right {
+  display: flex;
+  gap: 40px;
+  font-style: normal;
+}
+
+header a {
+  padding: 24px 0;
+}
+
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  list-style: none;
+}
+
+/* hero */
+.hero .container {
+  gap: 48px;
+}
+
+.hero-btn {
+  align-self: center;
+}
+
+.hero-btn:hover {
+  background-color: #404bbf;
+}
+
+/* properties */
+.properties h3 {
+  padding-bottom: 8px;
+}
+
+/* team */
+.team .card {
+  background-color: #ffffff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
+
+/* portfolio */
+.portfolio .card {
+  flex-basis: calc((100% - 48px) / 3);
+  border-bottom: 1px solid #e7e9fc;
+  text-align: left;
+}
+
+/* footer */
+.footer {
+  padding: 100px 0;
+}
+
+.footer-content {
+  max-width: 264px;
+}
+
+.footer-text {
+  margin-top: 16px;
+}
+
+/* Typography */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+}
+
+.title-one {
+  font-size: 56px;
+  line-height: 1.0714;
+  letter-spacing: 0.02em;
+}
+
+.title-two {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+.title-three {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.body {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.body-medium {
+  font-weight: 500;
+}
+
+.button-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+/* Color */
+.color-navy {
+  color: #2e2f42;
+}
+
+.color-slate {
+  color: #434455;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.color-iris {
+  color: #4d5ae5;
+}
+
+/* Background */
+.bgcolor-navy {
+  background-color: #2e2f42;
+}
+
+.bgcolor-cloud {
+  background-color: #f4f4fd;
+}
+
+.bgcolor-iris {
+  background-color: #4d5ae5;
+}
