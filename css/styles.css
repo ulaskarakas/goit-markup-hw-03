@@ -86,7 +86,8 @@ button {
 
 /* header */
 header {
-  border: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
 header .container {
@@ -104,10 +105,7 @@ header .container {
   display: flex;
   gap: 40px;
   font-style: normal;
-}
-
-header a {
-  padding: 24px 0;
+  align-items: center;
 }
 
 header ul {
@@ -119,8 +117,13 @@ header ul {
 }
 
 /* hero */
-.hero .container {
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   gap: 48px;
+  padding: 188px 0;
 }
 
 .hero-btn {
@@ -175,6 +178,7 @@ header ul {
 
 .title-one {
   font-size: 56px;
+  font-weight: 700;
   line-height: 1.0714;
   letter-spacing: 0.02em;
 }
